@@ -1,6 +1,6 @@
 # Java-Web-Cheatsheet
 
-### Hibernate
+## Hibernate
 ``` 
 <!-- https://mvnrepository.com/artifact/org.hibernate.orm/hibernate-core -->
 <dependency>
@@ -9,7 +9,7 @@
   <version>5.4.7.Final</version>
 </dependency>
 ```
-### MSSQL JDBC
+## MSSQL JDBC
 ```
 <!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
 <dependency>
@@ -18,7 +18,7 @@
   <version>10.2.1.jre8</version>
 </dependency>
 ```
-### JSTL
+## JSTL
 ```
 <!-- https://mvnrepository.com/artifact/javax.servlet/jstl -->
 <dependency>
@@ -27,7 +27,11 @@
   <version>1.2</version>
 </dependency>
 ```
+### Điều kiện, vòng lặp
 ```
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
+```
+### Định dạng
+```
+<%@ taglib prefix = "fmt" uri = "http://java.sun.com/jsp/jstl/fmt" %>
 ```
