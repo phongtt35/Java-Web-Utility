@@ -1,6 +1,4 @@
-import com.mycompany.hibernate.model.SinhVien;
 import java.util.Properties;
-import com.mycompany.hibernate.model.LopHoc;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
