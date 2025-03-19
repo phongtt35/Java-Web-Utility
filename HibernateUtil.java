@@ -1,5 +1,3 @@
-package utility;
-
 import java.util.Properties;
 
 import org.hibernate.Session;
@@ -8,8 +6,6 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
 import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
-
-import model.ViecCanLam;
 
 public final class HibernateUtil {
 	
@@ -26,7 +22,7 @@ public final class HibernateUtil {
 		// properties.put(Environment.HBM2DDL_AUTO, "create"); // tự động sinh db
 
 		conf.setProperties(properties);
-		conf.addAnnotatedClass(ViecCanLam.class);
+		// conf.addAnnotatedClass(ViecCanLam.class);
 
 		ServiceRegistry registry = new StandardServiceRegistryBuilder()
 				.applySettings(conf.getProperties())
