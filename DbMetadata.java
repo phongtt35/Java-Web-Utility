@@ -1,5 +1,3 @@
-package utility;
-
 /*
  * Thông tin kết nối của Database được khai báo ở class này
  */
