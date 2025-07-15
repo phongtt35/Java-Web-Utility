@@ -1,3 +1,7 @@
+# Environment
+- Java 17 SDK
+- Tomcat 11
+
 # Dependencies
 ## Servlet API
 ```
