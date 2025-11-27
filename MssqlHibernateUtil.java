@@ -58,9 +58,9 @@ public final class MssqlHibernateUtil {
                                 .build();
 
                         sessionFactory = configuration.buildSessionFactory(registry);
-                        System.out.println("✅ Hibernate SessionFactory đã được khởi tạo thành công!");
+                        System.out.println("Hibernate SessionFactory đã được khởi tạo thành công!");
                     } catch (Exception e) {
-                        System.err.println("❌ Lỗi khi khởi tạo Hibernate: " + e.getMessage());
+                        System.err.println("Lỗi khi khởi tạo Hibernate: " + e.getMessage());
                         e.printStackTrace();
                     }
                 }
